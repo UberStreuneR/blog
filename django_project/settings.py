@@ -28,6 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'anotherappofmine.herokuapp.com',
     'djangoappofmine.herokuapp.com',
     'localhost'
 ]
